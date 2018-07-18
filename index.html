@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro clock</title>
+	<link rel=stylesheet href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	
+
+	<div id="title">
+		<h1>Pomodoro clock</h1>
+	</div>
+	
+
+	<div id=brl>
+		<p>Break length</p>
+		<button onclick="minus1()">-</button>
+		<p id="breaklength">5</p>
+		<p>: 00</p>
+		<button onclick="plus1()">+</button>
+	</div>
+
+
+	<div id=sl>
+		<p>Session Length</p>
+		<button onclick="minus2()">-</button>
+		<p id="sessionlength">25</p>
+		<p id="secseslength">: 00</p>
+		<button onclick="plus2()">+</button>	
+	</div>
+		
+
+	<div id="clock">
+		<p id="session">Session</p>
+		<div>
+			<p id="w">work</p>
+			<p id="b">break</p>
+			<p id="minleft">25</p>
+			<p>:</p>
+			<p id="secleft">00</p>
+		</div>
+	</div>
+
+
+	<div id="buttons">
+		<button onclick="start();">START</button>
+		<button onclick="pause()">PAUSE</button>
+		<button onclick="resume()">RESUME</button>
+		<button onclick="reset()">RESET</button>
+	</div>
+
+
+	<footer id="low">
+		2018, by Alex Staniea
+	</footer>
+
+</body>
+</html>
