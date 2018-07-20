@@ -1,50 +1,58 @@
 body
 {
 	text-align: center;
-	background-color:#4d4d4d;
+	background-image: url("r2.jpg");
+	background-repeat: no-repeat;
 	font-size:25px;
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
 #title
 {
 	font-size:30px;
+	margin-bottom:45px;
 }
+
 
 p
 {
 	display: inline-block;
 }
 
+
+
 #low
 {
-	margin-top:200px;
+	margin-top:5%;
 	font-size: 16px;
+
 }
 
 #clock
 {
 	border:solid 1px black;
 	border-radius: 100%;
-	width:200px;
-	height:200px;
+	width:220px;
+	height:220px;
 	display:inline-block;
 	margin-top: 25px;
 }
 
 button
 {
-	background-color:#737373;
-	border-color: #8c8c8c;
-	border-radius: 9%;
+	background:none;
+	border:  2px solid rgb(77, 77, 77);
+	border-radius: 5%;
 	opacity: 100%;
     -webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	color:black;
+	font-size:20px;
+	outline: none;
 }
 
-button:hover{
-    background-color: #666666;
-    color: black;
-}
+
 
 button:focus{
 	outline:none;
@@ -53,34 +61,50 @@ button:focus{
 #brl button
 {
 	border:none;
-	background-color:#4d4d4d;
+
 }
 
 #sl button
 {
 	border:none;
-	background-color:#4d4d4d;
 }
+
+#buttons{
+	margin-top:87px;
+}
+
 
 #buttons button
 {
-	margin-top: 25px;
-	height:36PX;
-	width :80PX;
-	border:none; 
+	margin-top: 30px;
+	height:43PX;
+	width :110PX;
 	margin: 25px 7px 7px 7px;
 }
 
 #w{
-	color:rgb(92, 153, 0);
+	color:rgb(82, 206, 82);
 	display: none;
 	margin-top: -5px;
 	margin-bottom: -3px;
 }
 
 #b{
-	color:rgb(180, 0, 0);
+	color:rgb(209, 32, 32);
 	display: none;
 	margin-top: -5px;
 	margin-bottom: -3px;
 }
+
+#title{
+	font-size:75px;
+	color:rgb(29, 29, 29) ;
+}
+
+audio{
+	position: absolute;
+	margin-top:0.5%;
+	margin-left:18.67%;
+	opacity: 0.25;
+}
+

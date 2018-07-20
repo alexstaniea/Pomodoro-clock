@@ -108,4 +108,7 @@ function reset()
 
     document.getElementById("minleft").innerHTML= document.getElementById("sessionlength").innerHTML;
     document.getElementById("secleft").innerHTML= "00";
+
+    document.getElementById("w").style.display="none";
+    document.getElementById("b").style.display="none";
 }
