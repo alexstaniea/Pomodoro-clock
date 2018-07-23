@@ -101,10 +101,4 @@ button:focus{
 	color:rgb(29, 29, 29) ;
 }
 
-audio{
-	position: absolute;
-	margin-top:0.5%;
-	margin-left:18.67%;
-	opacity: 0.25;
-}
 

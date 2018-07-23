@@ -75,12 +75,15 @@ function start()
                 document.getElementById("minleft").innerHTML= Math.floor(Number(secondsLeft /60));
 
             if(Math.floor(Number(secondsLeft %60))===0 && Math.floor(Number(secondsLeft /60))===0)
-            {
+            { if(cancel)
+                return;
+                var audio = new Audio("ao.mp3");
+               
                 document.getElementById("w").style.display="none";
                 document.getElementById("b").style.display="block";
                 x=(Number(1)+Number(document.getElementById("breaklength").innerHTML))*60;
                 if(Math.floor(Number(secondsLeft %60))===0 && Math.floor(Number(secondsLeft /60))===0)
-                return;
+                audio.play();
             }
                
         })
